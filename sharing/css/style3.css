@@ -1,0 +1,118 @@
+﻿* {   
+margin: 0;
+padding: 0;
+border: 0;
+font-family: sans-serif;
+font-size: 1em;
+font-weight: normal;
+font-style: normal;
+text-decoration: block;
+}
+
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+src: url('OpenSans-Light.eot');
+src: local('Open Sans Light'), local('OpenSans-Light'), url('OpenSans-Light.woff') format('woff'), url('OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Vegur';
+font-style: normal;
+font-weight: 300;
+src: url('vegur-l-webfont.eot');
+src: local('Vegur Light'), local('Vegur-Light'), url('vegur-l-webfont.woff') format('woff');
+}
+
+
+body{
+overflow: hidden;
+}
+ 
+	 
+#bg{
+position:absolute;
+z-index:0;
+}
+
+#place{
+position:absolute;
+z-index:2;
+}
+
+#layout-fj{
+width:800px;
+position:absolute;
+top:0px;
+left: 0px;
+}
+/*上面变动影响首页块状结构*/
+#place{
+position: relative;
+width:6000px;
+height:560px;
+margin:0px;
+}
+
+#wrapper1,
+#wrapper2,
+#wrapper3{
+height:480px;
+position:absolute;
+top:120px;
+}
+
+#wrapper1{
+	left:50px;
+}
+
+#wrapper2{
+	left:1250px;
+}
+
+#wrapper3{
+	left:2550px;
+}
+
+
+#button2to1,#button1to2,#button2to3{
+	position: absolute;
+	width:120px;
+	height:40px; 
+	z-index:6; 
+	left:120px;
+}
+
+#button2to1{
+	background: url('../img/d1.png') center center;
+	display:block;
+	top:200px;
+}
+
+#button1to2{
+	background: url('../img/e1.png') center center;
+	top:250px;
+}
+
+#button2to3 {
+	background: url('../img/f1.png') center center;
+	display:block;
+	top:300px;
+}
+ 
+
+#button2to1:hover{
+	background: url('../img/d2.png') center center;
+	cursor: pointer;
+}
+
+#button1to2:hover{
+	background: url('../img/e2.png') center center;
+	cursor: pointer;
+}
+#button2to3:hover{
+	background: url('../img/f2.png') center center;
+	cursor: pointer;
+}
+ 

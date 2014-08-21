@@ -1,0 +1,43 @@
+ul.baraja-container {
+	width: 800px;
+	height: 440px;
+	margin: 0px auto 0px;
+	position: relative;
+	padding: 0;
+	list-style-type: none;
+	z-index:4
+	}
+
+ul.baraja-container li {
+	width: 800px;
+	height: 440px;
+	margin: 0;
+	position: absolute;
+	top: 140px;
+	left:0px;
+	cursor: pointer;
+	background: #fff;
+	pointer-events: auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+#libg1{
+background: #A0FF7A;
+}
+#libg2{
+background: #FF9E77;
+}
+#libg3{
+background: #FF8787;
+}
+#libg4{
+background: #5BEBC0;
+}
+#libg5{
+background:#78A6EB;
+}
+ 

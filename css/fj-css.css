@@ -1,0 +1,165 @@
+
+	    #blank1{
+		    position:absolute;
+			top:0px;
+			right:0px;
+			width:80px;
+			height:100%;
+			background:#171717;
+			z-index:-4;
+			}	
+		#sch{
+		    position:absolute;
+			top:7%;
+			right:0px;
+			z-index:-4;
+		    }
+		#home{
+		    position:absolute;
+			top:22%;
+			right:0px;
+			z-index:-4;
+		    }		
+		#reg{
+		    position:absolute;
+			top:37%;
+			right:0px;
+			z-index:-4;
+		    }
+		#set{
+		    position:absolute;
+			top:52%;
+			right:0px;
+			z-index:-4;
+		    }
+		#exchange{
+		    position:absolute;
+			top:67%;
+			right:0px;
+			z-index:-4;
+		    }		
+		#share{
+		    position:absolute;
+			top:82%;
+			right:0px;
+			z-index:-4;
+		    }
+
+		
+	    #onpic{
+		    position:absolute;
+			top:0px;
+			right:0px;
+			z-index:2;
+			width:80px;
+			height:100%;
+			}	
+        #rm,#menucontainer img,#menucontainer a{
+		   cursor:pointer;
+		   }			
+			
+/*上面右侧浮动菜单*/
+	
+	    #se2{
+			position:absolute;
+			top:0px;
+			right:0px;
+			z-index:4;
+			display:none;
+		    width:20%;
+			height:100%;
+			background:#00ABA9;
+		    }
+	    #searchName{
+		    position:absolute;
+			top:16%;
+			right:68%;
+			z-index:5;
+			font-size:35px;
+			font-family:"微软雅黑",黑体;
+			}
+	    #sInput, 
+		#searchSubmit,
+		#searchCancel{
+			top:32%;
+    		}
+	    #sInput, #searchSubmit{
+		    position:absolute;
+			right:25%;
+			height:30px;
+			z-index:5;
+			}
+		#sInput{
+		    width:180px; 
+			}
+		#sInput::-webkit-input-placeholder,{
+		font-family:微软雅黑;
+		color:#000; 
+		font-size:12px;
+		}
+		#sInput::-moz-placeholder {
+		font-family:微软雅黑;
+		color:#000;
+		font-size:12px;
+		text-align:center;
+		}
+	    #searchCancel{
+		    position:absolute;
+			right:6%;
+			z-index:5;
+			width:30px;
+		    }
+		#searchCancel:visited{
+			text-decoration:none;
+			color:black;
+		    }
+
+,#ho2,#re2,#sh2,#sets2{}
+
+
+
+    /*下面“设置”*/	
+        #sets2{
+		   position:absolute;
+		   bottom:0px;
+		   right:0px;
+		   width:15%;
+		   height:100%;
+		   display:none;
+		   background:#00ABA9;
+		   z-index:4;
+		   }
+		#sets2 img{
+		   width:30px;
+		   height:30px;
+           border:2px solid white;
+		   }
+		#chgimg {
+		   position:absolute;
+		   top:20%;
+		   right:60px;
+		   width:40%;
+		   height:50%;
+		   }
+	    #settingCancel{
+		   } 
+	    /*变色部分*/
+	
+		#beijingse{
+		   position:absolute;
+		   left:0px;
+		   top:0px;
+		   z-index:-1;
+		   width:100%;
+		   height:100%;
+	       }
+        /*调用背景色备用*/		
+
+/*footer*/	
+        #footer{
+		   position:absolute;
+		   left:500px;
+		   bottom:20px;
+		   z-index:5;
+		   }
+

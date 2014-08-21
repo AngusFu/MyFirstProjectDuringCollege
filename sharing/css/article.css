@@ -1,0 +1,130 @@
+﻿	#newsback{
+		width:48px;
+		height:48px;
+		position:absolute;
+		left:100px;
+		top:80px;
+		background:url(../../img/back.png) no-repeat;
+		}
+	#newsback:hover{
+		background:url(../../img/backhover.png);
+		}
+	#newsname{
+		font-size:250%;
+		font-family:微软雅黑;
+		color:white;
+		position:absolute;
+		left:220px;
+		top:80px;
+		width:600px
+		}
+	#newstime{
+		font:12px 微软雅黑;
+		color:white;
+		position:absolute;
+		left:220px;
+		top:150px;		
+		}
+	#userinfo{
+		position:absolute;
+		right:190px;
+		top:60px;
+		z-index:4;
+		font-family:黑体;
+		font-size:30px;
+		text-decoration:none;
+		color:#000;
+		}
+	#userpic,#defaultimg{
+		position:absolute;
+		right:100px;
+		top:50px;
+		z-index:4;
+		width:60px;
+		height:60px;
+		border:1px solid white
+		}
+	#userinfobg{
+		position:absolute;
+		right:90px;
+		top:40px;
+		z-index:3;
+		width:200px;
+		height:80px;
+		background:url(../../img/lakeblue.png);
+		display:none;
+		}
+	#userinfomenu{
+		background:white;
+		width:194px;
+		height:120px;
+		font-size:16px;
+		position:absolute;
+		right:200px;
+		top:120px;
+		display:none;
+		}
+	#headerlogout{
+		height:40px;
+		position:absolute;
+		left:50px;
+		bottom:15px;
+		}
+	#headermy{
+		height:40px;
+		position:absolute;
+		left:50px;
+		top:25px;
+		}
+	#headerlogout a ,#headermy a{
+		font-family:微软雅黑;
+		text-decoration:none;
+		}		
+	#headerreg{
+		position:absolute;
+		right:220px;
+		top:100px;
+		}
+	#headerreg a{
+		cursor:pointer;
+		font-family:微软雅黑;
+		font-size:20px;
+		color:#000
+		}
+			
+	#content{
+		position:absolute;
+		left:0px;
+		top:200px;
+		}
+	#container {
+		position:absolute;
+		left:200px;
+		top:0px;
+		width:1000px;
+		height:480px;
+		}		
+	#container div {
+		-webkit-column-count:2; 
+		-moz-column-count: 2;
+		column-count:2;  
+		
+		-webkit-column-gap: 80px;
+		-moz-column-gap: 80px;
+		column-gap: 80px;
+		
+		/*-webkit-column-width:400px;
+		column-width:500px;
+		 -moz-column-width:500px;*/
+		 }
+	#container p {
+		text-indent:2em;
+		text-align:left;
+		}
+
+	
+	#typepic{
+		width:50px;
+		height:50px;
+		border:3px solid white;
+		}
